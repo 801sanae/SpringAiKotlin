@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: KotlinAI
+  ai:
+    openai:
+      api-key: "?? ?"
+      chat:
+        options:
+          model: gpt-4o
+          temperature: 0.7
+      image:
+        options:
+          model: dall-e-3
